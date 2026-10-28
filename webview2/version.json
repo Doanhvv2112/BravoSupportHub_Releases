@@ -1,9 +1,9 @@
 {
   "edition": "webview2",
-  "version": "1.0.4",
-  "tag": "webview2-v1.0.4",
-  "zip": "BravoSupportHub-WebView2-1.0.4.zip",
-  "sha256": "6a81ef354e521cf66ff8d09a1da5c84ec97f6cd022dd2e0a119c5b3aaeb599bc",
-  "size": 8412408,
-  "notes": "## BravoSupportHub WebView2 1.0.4\r\n\r\n- Thêm Ghi chú → … → Chuyển thành khách hàng… để sửa các ghi chú bị phân loại nhầm khi nhập SmartNotes/BHTool.\r\n- Chọn nhiều ghi chú, lọc danh sách, chỉnh tên khách hàng; mặc định giữ bản gốc và có tùy chọn xóa sau khi chuyển thành công.\r\n- Tự sao lưu database mã hóa trước khi ghi. Giữ nội dung/RTF, ghim, thư mục và ngày sửa; ghi chú SQL còn điền vào tab Chạy SQL của khách hàng.\r\n- Chặn trùng tên, không ghi đè khách hàng hiện có. Nếu xóa nguồn bị lỗi, giữ lại ghi chú và thông báo trong kết quả.\r\n- Core và cấu trúc dữ liệu giữ nguyên; bổ sung API C# kiểm thử trực tiếp không cần mở WebView2.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
+  "version": "1.0.5",
+  "tag": "webview2-v1.0.5",
+  "zip": "BravoSupportHub-WebView2-1.0.5.zip",
+  "sha256": "22a35991c3a5f200a28f0ad293e128e581436475b04d8de114b5f7b20f2fa134",
+  "size": 8416971,
+  "notes": "## BravoSupportHub WebView2 1.0.5\r\n\r\n- Tracer → EXEC luôn chuẩn hóa giá trị ngày được nhận diện thành yyyy-MM-dd, bỏ phần giờ.\r\n- Thêm lựa chọn thứ tự ngày đầu vào: Tự nhận, Ngày–Tháng–Năm, Tháng–Ngày–Năm và Năm–Tháng–Ngày; lưu lựa chọn cho lần sau.\r\n- Tự nhận sử dụng ngày rõ nghĩa trong cùng đầu vào để xác định thứ tự. Nếu còn mơ hồ, yêu cầu người dùng chọn thứ tự thay vì đoán.\r\n- Hỗ trợ dấu /, -, ., năm 2 chữ số (20xx), ngày ISO và tên tháng tiếng Anh; kiểm tra ngày/giờ không hợp lệ. Xóa kết quả cũ khi có lỗi.\r\n- Bổ sung kiểm thử trực tiếp API và giao diện bằng mẫu REP09_BKCT; giữ nguyên Core, chữ ký public và cấu trúc dữ liệu.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
 }
