@@ -1,0 +1,9 @@
+{
+  "edition": "webview2",
+  "version": "1.0.3",
+  "tag": "webview2-v1.0.3",
+  "zip": "BravoSupportHub-WebView2-1.0.3.zip",
+  "sha256": "26b54cf54cfd4dc13b20f00fbc75c4927ba7f07b1a7257107d85eb3f62c4a45e",
+  "size": 8405219,
+  "notes": "## BravoSupportHub WebView2 1.0.3\n\n- Giao diện WebView2 trên .NET Framework 4.7.2, giữ nguyên Core và định dạng database của bản WinForms.\n- Hoàn thiện các mục Khách hàng, Ghi chú, Đoạn mã, Việc cần làm, 14 tiện ích SQL, So sánh văn bản, Tài liệu ISO, Mạng và máy tính, Tool khác, So sánh database và Cài đặt.\n- Hỗ trợ Tiếng Việt / English; hướng dẫn HTML theo giao diện mới.\n- Kiểm tra, tải và cài cập nhật qua kênh WebView2 riêng trong BravoSupportHub_Releases. Có tiến trình tải, hủy, để sau và bỏ qua phiên bản.\n- Xác minh SHA256, kích thước, nội dung ZIP và phiên bản EXE trước khi cài. Giữ nguyên database, cài đặt, sao lưu, tài liệu và hồ sơ WebView2.\n- Nút Trợ giúp mở menu Hướng dẫn sử dụng (F1) / Giới thiệu như bản WinForms.\n\nCopyright © 2026 Vương Văn Doanh.\n"
+}
