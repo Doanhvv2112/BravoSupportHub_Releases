@@ -1,9 +1,9 @@
 {
   "edition": "webview2",
-  "version": "1.0.5",
-  "tag": "webview2-v1.0.5",
-  "zip": "BravoSupportHub-WebView2-1.0.5.zip",
-  "sha256": "22a35991c3a5f200a28f0ad293e128e581436475b04d8de114b5f7b20f2fa134",
-  "size": 8416971,
-  "notes": "## BravoSupportHub WebView2 1.0.5\r\n\r\n- Tracer → EXEC luôn chuẩn hóa giá trị ngày được nhận diện thành yyyy-MM-dd, bỏ phần giờ.\r\n- Thêm lựa chọn thứ tự ngày đầu vào: Tự nhận, Ngày–Tháng–Năm, Tháng–Ngày–Năm và Năm–Tháng–Ngày; lưu lựa chọn cho lần sau.\r\n- Tự nhận sử dụng ngày rõ nghĩa trong cùng đầu vào để xác định thứ tự. Nếu còn mơ hồ, yêu cầu người dùng chọn thứ tự thay vì đoán.\r\n- Hỗ trợ dấu /, -, ., năm 2 chữ số (20xx), ngày ISO và tên tháng tiếng Anh; kiểm tra ngày/giờ không hợp lệ. Xóa kết quả cũ khi có lỗi.\r\n- Bổ sung kiểm thử trực tiếp API và giao diện bằng mẫu REP09_BKCT; giữ nguyên Core, chữ ký public và cấu trúc dữ liệu.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
+  "version": "1.0.6",
+  "tag": "webview2-v1.0.6",
+  "zip": "BravoSupportHub-WebView2-1.0.6.zip",
+  "sha256": "3e17585c5d578d782135d82a553019875c3286fde573f98de6a4a347a7a95990",
+  "size": 8417282,
+  "notes": "## BravoSupportHub WebView2 1.0.6\r\n\r\n- Tracer → EXEC giữ phần giờ khác 00:00:00; giữ giây và phần lẻ (ví dụ 14:30:25.123).\r\n- Nếu giờ bằng 0 hoàn toàn, chỉ xuất ngày yyyy-MM-dd. Nếu có phần lẻ khác 0 thì vẫn giữ thời gian.\r\n- Giữ lựa chọn thứ tự ngày đầu vào và kiểm tra ngày/tháng mơ hồ. Ngày vẫn chuẩn hóa yyyy-MM-dd; không tự chuyển múi giờ.\r\n- Bổ sung kiểm thử API và giao diện; không thay đổi Core hoặc dữ liệu người dùng.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
 }
