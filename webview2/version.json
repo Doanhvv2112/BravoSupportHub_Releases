@@ -1,9 +1,9 @@
 {
   "edition": "webview2",
-  "version": "1.0.3",
-  "tag": "webview2-v1.0.3",
-  "zip": "BravoSupportHub-WebView2-1.0.3.zip",
-  "sha256": "26b54cf54cfd4dc13b20f00fbc75c4927ba7f07b1a7257107d85eb3f62c4a45e",
-  "size": 8405219,
-  "notes": "## BravoSupportHub WebView2 1.0.3\n\n- Giao diện WebView2 trên .NET Framework 4.7.2, giữ nguyên Core và định dạng database của bản WinForms.\n- Hoàn thiện các mục Khách hàng, Ghi chú, Đoạn mã, Việc cần làm, 14 tiện ích SQL, So sánh văn bản, Tài liệu ISO, Mạng và máy tính, Tool khác, So sánh database và Cài đặt.\n- Hỗ trợ Tiếng Việt / English; hướng dẫn HTML theo giao diện mới.\n- Kiểm tra, tải và cài cập nhật qua kênh WebView2 riêng trong BravoSupportHub_Releases. Có tiến trình tải, hủy, để sau và bỏ qua phiên bản.\n- Xác minh SHA256, kích thước, nội dung ZIP và phiên bản EXE trước khi cài. Giữ nguyên database, cài đặt, sao lưu, tài liệu và hồ sơ WebView2.\n- Nút Trợ giúp mở menu Hướng dẫn sử dụng (F1) / Giới thiệu như bản WinForms.\n\nCopyright © 2026 Vương Văn Doanh.\n"
+  "version": "1.0.4",
+  "tag": "webview2-v1.0.4",
+  "zip": "BravoSupportHub-WebView2-1.0.4.zip",
+  "sha256": "6a81ef354e521cf66ff8d09a1da5c84ec97f6cd022dd2e0a119c5b3aaeb599bc",
+  "size": 8412408,
+  "notes": "## BravoSupportHub WebView2 1.0.4\r\n\r\n- Thêm Ghi chú → … → Chuyển thành khách hàng… để sửa các ghi chú bị phân loại nhầm khi nhập SmartNotes/BHTool.\r\n- Chọn nhiều ghi chú, lọc danh sách, chỉnh tên khách hàng; mặc định giữ bản gốc và có tùy chọn xóa sau khi chuyển thành công.\r\n- Tự sao lưu database mã hóa trước khi ghi. Giữ nội dung/RTF, ghim, thư mục và ngày sửa; ghi chú SQL còn điền vào tab Chạy SQL của khách hàng.\r\n- Chặn trùng tên, không ghi đè khách hàng hiện có. Nếu xóa nguồn bị lỗi, giữ lại ghi chú và thông báo trong kết quả.\r\n- Core và cấu trúc dữ liệu giữ nguyên; bổ sung API C# kiểm thử trực tiếp không cần mở WebView2.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
 }
