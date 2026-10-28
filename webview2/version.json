@@ -1,9 +1,9 @@
 {
   "edition": "webview2",
-  "version": "1.0.6",
-  "tag": "webview2-v1.0.6",
-  "zip": "BravoSupportHub-WebView2-1.0.6.zip",
-  "sha256": "3e17585c5d578d782135d82a553019875c3286fde573f98de6a4a347a7a95990",
-  "size": 8417282,
-  "notes": "## BravoSupportHub WebView2 1.0.6\r\n\r\n- Tracer → EXEC giữ phần giờ khác 00:00:00; giữ giây và phần lẻ (ví dụ 14:30:25.123).\r\n- Nếu giờ bằng 0 hoàn toàn, chỉ xuất ngày yyyy-MM-dd. Nếu có phần lẻ khác 0 thì vẫn giữ thời gian.\r\n- Giữ lựa chọn thứ tự ngày đầu vào và kiểm tra ngày/tháng mơ hồ. Ngày vẫn chuẩn hóa yyyy-MM-dd; không tự chuyển múi giờ.\r\n- Bổ sung kiểm thử API và giao diện; không thay đổi Core hoặc dữ liệu người dùng.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
+  "version": "1.0.7",
+  "tag": "webview2-v1.0.7",
+  "zip": "BravoSupportHub-WebView2-1.0.7.zip",
+  "sha256": "0ef5fb6c8c55806155c290629b2bf09d97988dd120bbedb3fc2fec03c9f4913f",
+  "size": 8486696,
+  "notes": "## BravoSupportHub WebView2 1.0.7\r\n\r\n- Thiết kế lại Chẩn đoán database theo công việc hỗ trợ: CPU/RAM/ổ đĩa/IO, thông tin kết nối mạng SQL, index và statistics, wait hiện thời, session sleeping gây khóa, deadlock và execution plan.\r\n- Bổ sung số đo CPU/IO và phần tăng CPU/reads của query giữa hai mẫu; tách rõ dữ liệu hiện thời với tích lũy, nguồn/thời điểm/phạm vi và phần thiếu quyền. Không diễn giải dữ liệu chưa đo được thành số 0.\r\n- Index: lọc bảng/index/cột, xem usage/statistics/gợi ý index thiếu và kiểm tra phân mảnh LIMITED theo bảng được chọn. Không tự chạy bảo trì index.\r\n- Deadlock: đọc system_health theo event_file thực tế, mở hoặc dán XDL/XML, xem nạn nhân, tài nguyên, cạnh chờ → chủ khóa và SQL đầy đủ. Execution plan: mở .sqlplan/XML, xem cây thao tác, cảnh báo, số đo thực tế nếu có và tham số compile/runtime; không tự thực thi SQL để lấy actual plan.\r\n- Tiện ích SQL mở được ở cửa sổ riêng không modal, có dropdown lọc đủ 14 công cụ và giữ nội dung từng công cụ. Có thể sử dụng khi cửa sổ chính thu nhỏ xuống Taskbar; thanh chọn chức năng giãn hết chiều ngang, trợ giúp thu gọn thành biểu tượng nhỏ.\r\n- Kết xuất Đoạn mã ra SQL/TXT, ghi chú khách hàng ra DOCX/TXT/RTF và kết quả JSON/XML ra file theo loại nội dung. Hủy không ghi file; đầu vào JSON/XML lỗi không xuất kết quả cũ.\r\n- Cập nhật hướng dẫn sử dụng HTML Việt/Anh, thuộc tính kiểm thử ổn định và bộ kiểm thử API/giao diện. Giữ nguyên Core, cấu trúc database, dữ liệu và cấu hình người dùng.\r\n\r\nLưu ý: dữ liệu mạng là thông tin kết nối SQL, không phải mức sử dụng card mạng toàn máy. Dữ liệu chẩn đoán phụ thuộc phiên bản và quyền SQL Server; kết quả thiếu dữ liệu được ghi rõ. Gói chạy cần .NET Framework 4.7.2 trở lên và Microsoft Edge WebView2 Runtime.\r\n\r\nCopyright © 2026 Vương Văn Doanh.\r\n"
 }
