@@ -1,9 +1,13 @@
 {
   "edition": "webview2",
-  "version": "1.0.10",
-  "tag": "webview2-v1.0.10",
-  "zip": "BravoSupportHub-WebView2-1.0.10.zip",
-  "sha256": "fee178776cca4341d9d910adca262ea974560e70ea253cae3792cd4b51936ec3",
-  "size": 14541547,
-  "notes": "## BravoSupportHub WebView2 1.0.10\n\n- Thêm công cụ Đọc chữ từ hình ảnh: mở, dán hoặc kéo thả ảnh, nhận dạng, sửa kết quả, sao chép vùng chọn/toàn bộ và lưu TXT.\n- Đóng gói sẵn OCR tiếng Việt, dùng không cần Internet và không gửi ảnh lên mạng. Hỗ trợ OCR Windows cho các ngôn ngữ đã cài; có lựa chọn bố cục nhận dạng. Bộ OCR nhúng tăng khoảng 6 MB; lần đầu sử dụng tự giải nén thư viện phù hợp 32/64-bit.\n- Đổi Tài liệu ISO thành Dự án và chuyển vào nhóm Kho thông tin. Bổ sung tiến độ Test sửa đổi, Test chuyển bảo hành và Chuyển bảo hành; tên trường dữ liệu bằng tiếng Anh, bổ sung tương thích dữ liệu hiện có.\n- Thêm nút sao chép User và Password trong cửa sổ thêm/sửa chương trình khách hàng.\n- Cập nhật hướng dẫn HTML tiếng Việt/Anh và kiểm thử tự động. Giữ nguyên các hợp đồng Core, không đóng gói database hay cấu hình cá nhân.\n\nLưu ý: OCR có thể sai dấu hoặc bỏ sót chữ/số khi ảnh nhỏ, mờ; cần đối chiếu số tiền với ảnh gốc.\n\nGói full cần .NET Framework 4.7.2 trở lên và Microsoft Edge WebView2 Runtime. OCR tiếng Việt cần Microsoft Visual C++ Redistributable 2015–2022 tương ứng kiến trúc nếu máy chưa có.\n\nCopyright © 2026 Vương Văn Doanh.\r\n"
+  "version": "1.0.11",
+  "tag": "webview2-v1.0.11",
+  "zip": "BravoSupportHub-WebView2-1.0.11.zip",
+  "sha256": "f930460175e17430c2b537ebf9dbadb47173ccbe109f1af65789f794a4a7e52e",
+  "size": 14548232,
+  "notes": "## BravoSupportHub WebView2 1.0.11\n\n- Gói Full chứa sẵn bốn mẫu Word trong thư mục TemplateFiles và thư mục output cạnh chương trình.\n- Dự án → Xuất tài liệu: mặc định chọn mẫu Word trong TemplateFiles và xuất vào output. Giữ nguyên đường dẫn mẫu/thư mục xuất đã lưu; mẫu đã bỏ khỏi danh sách không tự thêm lại.\n- Gói cập nhật chương trình tách riêng gói mẫu Word. Chỉ tải và xác minh gói mẫu khi chưa có TemplateFiles; nếu thư mục đã có (kể cả trống), không tải lại hoặc ghi đè. Tự tạo output khi thiếu, giữ nguyên tài liệu đã xuất.\n- Nhấn Tab ở các ô tìm kiếm/lọc sẽ bỏ qua nút × Xóa lọc; vẫn bấm chuột để xóa được. Áp dụng cả ô lọc trong dropdown.\n- Cập nhật hướng dẫn HTML Việt/Anh và kiểm thử API, cập nhật, đóng gói và giao diện. Giữ nguyên Core, database và cấu hình người dùng.\n\nCài mới: tải BravoSupportHub-WebView2-1.0.11-Full.zip. Chức năng Kiểm tra cập nhật tự dùng gói runtime và chỉ tải mẫu Word nếu thiếu.\n\nCần .NET Framework 4.7.2 trở lên và Microsoft Edge WebView2 Runtime. OCR tiếng Việt có sẵn từ bản 1.0.10; cần Microsoft Visual C++ Redistributable 2015–2022 tương ứng kiến trúc nếu máy chưa có.\n\nCopyright © 2026 Vương Văn Doanh.\r\n",
+  "fullZip": "BravoSupportHub-WebView2-1.0.11-Full.zip",
+  "templatesZip": "BravoSupportHub-TemplateFiles.zip",
+  "templatesSha256": "62b17ffab50f47f0b275dbb4932e61eb789922ae2cfc3f09b59faf9eab6f44cf",
+  "templatesSize": 135065
 }
