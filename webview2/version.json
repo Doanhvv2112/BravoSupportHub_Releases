@@ -1,13 +1,13 @@
 {
-  "edition": "webview2",
-  "version": "1.0.23",
-  "tag": "webview2-v1.0.23",
-  "zip": "BravoSupportHub-WebView2-1.0.23.zip",
-  "sha256": "3e9ff2cfc59e1bd1cfcad2cc3d905d6fdd03cd6508d0494525fd2de62198afad",
-  "size": 13420072,
-  "notes": "## BravoSupportHub WebView2 1.0.23\n\n- Chạy SQL: kéo chia khung, Ctrl+R ẩn/hiện kết quả, tab Thông báo, Chạy/Dừng trên thanh soạn thảo, lọc và khôi phục thứ tự cột, tạo INSERT vào #Tmp kèm tùy chọn tạo bảng tạm, sửa dấu bao trong gợi ý tên SQL Server.\n\n- Chạy SQL dùng chung cho Tiện ích và Khách hàng, có gợi ý SQL, sao chép vùng kèm tiêu đề, tạo INSERT và xuất Excel.\n\n- Excel → SQL: mở Run SQL khi chưa chọn kết nối, giữ danh sách công cụ ở cửa sổ riêng; Tạo UPDATE mang theo script CREATE/INSERT và cú pháp, giữ nguồn khi chỉnh khóa/ghép cột, không lặp script khi chuyển lại.\n\n- Cửa sổ Tiện ích riêng dùng danh sách tìm kiếm bên trái giống cửa sổ chính; nội dung công cụ bên phải, danh sách giữ cố định khi chọn và cuộn riêng.\n\n- Excel → SQL: căn thẳng và đồng bộ tiêu đề Đầu vào/Đầu ra, cùng cỡ chữ 13px/600 và chiều cao header.\n\n- Thống nhất label theo loại vùng: form/panel đặt trên ô, thanh lọc đặt bên trái, checkbox/radio đặt bên phải; đồng bộ cỡ chữ, độ đậm và khoảng cách.\n- Excel → SQL: editor nổi cho ô dài/nhiều dòng, Alt+Enter xuống dòng; Đầu ra database cuộn chung, tóm tắt một dòng và ghép cột gọn hơn.\n\n- Excel → SQL: thống nhất dropdown, tự thu gọn kết nối hợp lệ, một vùng cuộn cài đặt/ghép cột, nhật ký ba dòng; toolbar Script một hàng, splitter nhớ riêng theo chế độ, số dòng tab theo tiêu đề; kiểm thử commit ô bằng phím không phụ thuộc focus.\n\n- Excel → SQL: sửa ô và chọn tiêu đề riêng từng sheet, hiệu chỉnh kiểu dữ liệu cho script/ghi database, phân trang xem trước; sửa nền tiêu đề khi cuộn, căn thẳng điều khiển, mở rộng ô Database và thu gọn kết nối.\n\n- Excel → SQL: hai cột Đầu vào/Đầu ra với tùy chọn theo ngữ cảnh, tab sheet, Script chỉ dùng sheet đang xem, ghép cột tự động cho bảng có sẵn và tạo bảng mới từ nhiều sheet; ghi nhớ lựa chọn, xác nhận rõ sheet/đích và chặn ghi nhiều sheet vào bảng có sẵn.\n\nCài mới bằng BravoSupportHub-WebView2-1.0.23-Full.zip. Người dùng hiện tại có thể chọn Kiểm tra cập nhật trong ứng dụng.",
-  "fullZip": "BravoSupportHub-WebView2-1.0.23-Full.zip",
-  "templatesZip": "BravoSupportHub-TemplateFiles.zip",
-  "templatesSha256": "62b17ffab50f47f0b275dbb4932e61eb789922ae2cfc3f09b59faf9eab6f44cf",
-  "templatesSize": 135065
+    "edition":  "webview2",
+    "version":  "1.0.24",
+    "tag":  "webview2-v1.0.24",
+    "zip":  "BravoSupportHub-WebView2-1.0.24.zip",
+    "sha256":  "d4f896f9cd1aa6fad62ae89f45b5dcac9a6bcc59e6d7daf52d6e86b3fb32e374",
+    "size":  13327518,
+    "notes":  "- Cháº¡y SQL cÃ³ nhiá»u tab query. Ctrl+N thÃªm tab bÃªn trÃ¡i; cÃ¢u lá»‡nh, káº¿t ná»‘i, káº¿t quáº£ vÃ  tab Ä‘ang chá»n Ä‘Æ°á»£c giá»¯ khi chuyá»ƒn chá»©c nÄƒng trong cÃ¹ng phiÃªn. Excel â†’ SQL má»Ÿ script trong tab má»›i.\n- Cá»­a sá»• Tiá»‡n Ã­ch riÃªng cÄƒn giá»¯a tiÃªu Ä‘á» vÃ  hÆ°á»›ng dáº«n trong vÃ¹ng ná»™i dung khi chÆ°a chá»n cÃ´ng cá»¥.\n- Excel â†’ SQL giá»›i háº¡n Ä‘á»™ rá»™ng cá»™t, ghim sá»‘ dÃ²ng, giá»¯ hai header má»™t hÃ ng vÃ  ghim nÃºt ghi á»Ÿ chÃ¢n cá»™t. Káº¿t ná»‘i chá»‰ tá»± thu gá»n sau khi xÃ¡c thá»±c.\n- Lá»—i cá»§a Äá»‹nh dáº¡ng Tracer, Format SQL vÃ  JSON / XML chá»‰ hiá»‡n trong khung káº¿t quáº£; chuyá»ƒn sang tiá»‡n Ã­ch khÃ¡c sáº½ Ä‘Ã³ng thÃ´ng bÃ¡o lá»—i cá»§a tiá»‡n Ã­ch trÆ°á»›c.\n- Cá»­a sá»• Tiá»‡n Ã­ch riÃªng cÃ³ icon riÃªng trÃªn taskbar (logo BSH kÃ¨m cá» lÃª), khÃ´ng cÃ²n gá»™p chung vá»›i icon BSH.\n- Cháº¡y SQL giá»¯ káº¿t quáº£ cá»§a tá»‘i Ä‘a 10 tab query gáº§n dÃ¹ng nháº¥t Ä‘á»ƒ khÃ´ng tÄƒng bá»™ nhá»› khi má»Ÿ nhiá»u tab/khÃ¡ch hÃ ng; tab cÅ© hÆ¡n cáº§n cháº¡y láº¡i trÆ°á»›c khi xuáº¥t Excel hoáº·c táº¡o INSERT.\n\nCÃ i má»›i báº±ng BravoSupportHub-WebView2-1.0.24-Full.zip. NgÆ°á»i dÃ¹ng hiá»‡n táº¡i cÃ³ thá»ƒ chá»n Kiá»ƒm tra cáº­p nháº­t trong á»©ng dá»¥ng.\n",
+    "fullZip":  "BravoSupportHub-WebView2-1.0.24-Full.zip",
+    "templatesZip":  "BravoSupportHub-TemplateFiles.zip",
+    "templatesSha256":  "74848be9b4a125ab7a71a94c4e2fda537f5648e4f34f90edeb999c2cea967d41",
+    "templatesSize":  134732
 }
