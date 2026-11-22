@@ -1,13 +1,13 @@
 {
-  "edition": "webview2",
-  "version": "1.0.33",
-  "tag": "webview2-v1.0.33",
-  "zip": "BravoSupportHub-WebView2-1.0.33.zip",
-  "sha256": "1f7992975a3f5f58fe4e0f78ed58d89d20f9e400d36f61dbd491f2e312684fc1",
-  "size": 13687625,
-  "notes": "## BravoSupportHub WebView2 1.0.33\n\n- Căn giữa biểu tượng sắp xếp và lọc trong từng nút ở tiêu đề Grid Chạy SQL.\n\n- Nút Sắp xếp/Lọc ẩn không giữ chỗ; tên cột và nút còn lại tận dụng phần trống, luôn hiện cả hai khi vừa sắp xếp vừa lọc.\n- Tiêu đề cột Kết quả Chạy SQL chừa tối thiểu 5 ký tự; nút Sắp xếp/Lọc căn phải và chỉ hiện khi hover/focus, giữ mũi tên đúng chiều khi sắp xếp và dấu lọc khi có bộ lọc.\n\n- Chạy SQL: tự vừa độ rộng cột ngắn bật mặc định, ghi nhớ khi tắt/bật và hiển thị đúng dấu tích trong menu; cột nội dung dài giữ độ rộng mặc định.\n- Bấm đúp tay kéo cột Kết quả để fit đầy đủ theo tiêu đề và giá trị dài nhất đã tải; bấm đúp lần nữa khôi phục độ rộng mặc định. Đo theo đúng font hiển thị; kéo chỉnh thủ công bắt đầu lại chu kỳ fit.\n- Bấm đúp một ô trong Cấu trúc cột chuyển focus và cuộn đến cột Kết quả tương ứng, giữ dòng đang chọn; hoạt động với cơ chế kéo chọn nhiều ô.\n- Ctrl+Home/Home và di chuyển bằng phím trong Kết quả không còn để cột # cố định che ô đang chọn.\n- Dự án: Mục đích và Thư mục dự án chiếm trọn cột trái, Thư mục dự án nằm ngay dưới Mục đích.\n- Khách hàng, Ghi chú, Đoạn mã, Dự án và To-Do dùng chung chiều cao thanh tiêu đề danh sách, tăng thêm 4px và căn giữa chữ/nút.\n- Cập nhật hướng dẫn tiếng Việt/Anh và kiểm tra UI bằng chuột/phím thật cho các thao tác lưới mới.",
-  "fullZip": "BravoSupportHub-WebView2-1.0.33-Full.zip",
-  "templatesZip": "BravoSupportHub-TemplateFiles.zip",
-  "templatesSha256": "62b17ffab50f47f0b275dbb4932e61eb789922ae2cfc3f09b59faf9eab6f44cf",
-  "templatesSize": 135065
+    "edition":  "webview2",
+    "version":  "1.0.34",
+    "tag":  "webview2-v1.0.34",
+    "zip":  "BravoSupportHub-WebView2-1.0.34.zip",
+    "sha256":  "b29668dab0c6ac20d62a6e4c275bee51ac8bf1f75ce362194f0d7c2a3ac3a59d",
+    "size":  13521739,
+    "notes":  "- Thông báo ngắn (Đã sao chép, Đã lưu file…) hiện ở góc phải dưới, phía trên thanh trạng thái, không còn che dòng tổng kết kết quả hay lưới ở giữa màn hình.\n- Thanh tab có nút ‹ › (vd. Chẩn đoán database) tự cuộn để tab đang chọn hiện đủ, không bị cắt chữ; mô tả trang dài bị cắt \"…\" hiện đầy đủ khi rê chuột.\n- Mũi tên mở danh sách của mọi ô chọn dùng chung một biểu tượng chevron nằm trong ô; nút lịch của ô ngày (Việc cần làm, Dự án) nằm trong ô.\n- Hộp thoại Sửa chương trình: khung mã QR chưa có ảnh theo màu giao diện (viền nét đứt), không còn nền trắng chói ở giao diện tối.\n- Chạy SQL: nút Dừng dùng biểu tượng dừng (không còn giống ô tích); thanh công cụ chia nhóm Chạy/Dừng · soạn câu lệnh · tùy chọn bằng vạch mảnh.\n- Cửa sổ hẹp hơn 1200px: danh sách (Khách hàng, Ghi chú, Tiện ích…) mặc định rộng 250px để vùng làm việc rộng hơn; độ rộng đã kéo chỉnh vẫn được giữ.\n- Tổng quan khách hàng: tên chương trình/kết nối dài xuống dòng trong phạm vi tên, tài khoản luôn nằm cùng dòng bên cạnh (rê chuột để xem đầy đủ).\n- Ghi chú trống hiện gợi ý mờ \"Nhập ghi chú…\".\n- Grid kết quả Chạy SQL: trạng thái sắp xếp (↑/↓) và lọc (phễu) hiện thành dấu nhỏ màu nhấn ngay sau tên cột; bỏ nút Sắp xếp ở tiêu đề, bấm vào tiêu đề cột để sắp xếp (tooltip tên cột có thêm dòng “Click để sắp xếp”); nút Lọc chỉ hiện khi rê chuột/focus, ở vị trí cố định và nằm đè lên tiêu đề, không còn xô lệch gây bấm nhầm.\n- Ô ngày ở tab Thông tin của Dự án và form thêm/sửa To-Do rộng bằng các ô Text cùng hàng, biểu tượng lịch nằm trong mép phải ô.\n- Chạy SQL: giữ phím ←/→ chuyển ô trong Grid kết quả mượt hơn khi đang mở Cấu trúc cột; bảng Cấu trúc cột chỉ cập nhật khi đổi cột và tối đa một lần mỗi khung hình.\n\nCài mới bằng BravoSupportHub-WebView2-1.0.34-Full.zip. Người dùng hiện tại có thể chọn Kiểm tra cập nhật trong ứng dụng.\n",
+    "fullZip":  "BravoSupportHub-WebView2-1.0.34-Full.zip",
+    "templatesZip":  "BravoSupportHub-TemplateFiles.zip",
+    "templatesSha256":  "74848be9b4a125ab7a71a94c4e2fda537f5648e4f34f90edeb999c2cea967d41",
+    "templatesSize":  134732
 }
